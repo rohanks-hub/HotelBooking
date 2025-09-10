@@ -1,0 +1,124 @@
+.form-outer-container {
+  max-width: 440px;
+  margin: 60px auto 40px auto;
+  background: #f7fafd;
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  padding: 0 0 32px 0;
+  color: #222;
+  position: relative;
+}
+
+.form-header {
+  background: #2d3e50;
+  border-radius: 14px 14px 0 0;
+  padding: 32px 32px 18px 32px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.form-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.form-hotel-name {
+  color: #a3d8f4;
+  background: linear-gradient(90deg, #a3d8f4, #e0e7ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-hotel-location {
+  font-size: 1.1rem;
+  color: #a3d8f4;
+  margin-bottom: 0;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 32px 32px 0 96px;
+}
+
+.booking-form label {
+  font-size: 1rem;
+  color: #2d3e50;
+  margin-bottom: 2px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 7px;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  background: #fff;
+  color: #222;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  transition: box-shadow 0.2s, border 0.2s;
+}
+
+.input:focus {
+  outline: none;
+  border: 1.5px solid #1976d2;
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.10);
+}
+
+.submit-btn {
+  background: linear-gradient(90deg, #1976d2, #42a5f5);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.10);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, #1565c0, #1976d2);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.submit-btn:disabled {
+  background: #b0bec5;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.form-error {
+  color: #d32f2f;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .booking-form {
+    padding: 18px 8px 0 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .form-outer-container {
+    max-width: 98vw;
+    padding: 0 2vw 18px 2vw;
+  }
+  .form-header {
+    padding: 18px 6px 10px 6px;
+  }
+  .booking-form {
+    padding: 12px 4px 0 8px;
+  }
+}

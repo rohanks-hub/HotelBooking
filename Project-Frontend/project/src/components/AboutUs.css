@@ -1,0 +1,246 @@
+.about-container {
+  padding: 60px;
+  max-width: 1000px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ffe6e6, #e6f7ff, #e6ffe6);
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+.about-container h1 {
+  font-size: 3.2rem;
+  margin-bottom: 30px;
+  color: #111;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(45deg, #ff4d4d, #4da6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-container h1::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #ff66cc;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.about-container h2 {
+  margin-top: 45px;
+  font-size: 2.2rem;
+  color: #ff6600;
+  padding-left: 0;
+  border-left: none;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  margin-top: 20px;
+  color: #444;
+}
+
+.about-container ul {
+  list-style-type: disc;
+  padding-left: 30px;
+  margin-top: 15px;
+}
+
+.about-container li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.about-container a {
+  color: #cc00ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+  color: #9900cc;
+}
+
+
+li{
+  list-style: none;
+}
+ul{
+  text-align: center;
+}
+
+.about-hero {
+  background: linear-gradient(120deg, #f59e0b 0%, #f97316 50%, #f43f5e 100%);
+  padding: 0 0 40px 0;
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-hero-content {
+  text-align: center;
+  padding: 60px 20px 20px 20px;
+}
+
+.about-hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.brand-gradient {
+  background: linear-gradient(90deg, #fff, #ffe6e6, #e6f7ff, #e6ffe6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-tagline {
+  font-size: 1.3rem;
+  margin-bottom: 18px;
+  color: #fff;
+}
+
+.about-highlight {
+  color: #ffe6e6;
+  font-weight: 600;
+}
+
+.about-hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 0 auto 30px auto;
+  max-width: 700px;
+  flex-wrap: wrap;
+}
+
+.about-hero-images img {
+  width: 140px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  border: 3px solid #fff3;
+  transition: transform 0.2s;
+}
+
+.about-hero-images img:hover {
+  transform: scale(1.06) translateY(-4px);
+  border-color: #fff;
+}
+
+.about-main-content {
+  background: #fff;
+  color: #222;
+  border-radius: 24px;
+  margin: -40px auto 0 auto;
+  max-width: 900px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 40px 24px 32px 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.about-section {
+  margin-bottom: 38px;
+}
+
+.about-section h2 {
+  color: #f97316;
+  font-size: 2rem;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.about-highlights {
+  margin-top: 18px;
+}
+
+.about-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.about-feature-card {
+  background: linear-gradient(120deg, #ffe6e6 0%, #e6f7ff 100%);
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 22px 18px 16px 18px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.about-feature-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 8px 32px rgba(249, 115, 22, 0.18);
+}
+
+.about-feature-card span {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+}
+
+.about-feature-card h4 {
+  color: #f59e0b;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.about-feature-card p {
+  color: #333;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.about-contact a {
+  color: #cc00ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.about-contact a:hover {
+  text-decoration: underline;
+  color: #9900cc;
+}
+
+@media (max-width: 900px) {
+  .about-main-content {
+    padding: 18px 4px 18px 4px;
+  }
+  .about-hero h1 {
+    font-size: 2.2rem;
+  }
+  .about-hero-images img {
+    width: 90px;
+    height: 60px;
+  }
+  .about-features {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+}
